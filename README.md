@@ -47,8 +47,8 @@ This project implements an advanced infrared communication robot capable of:
 ### Central Processing Unit
 
 <div align="center">
-
 ![STM32 Schematic](images/stm32_schematic.png)
+
 *STM32F446VET6 microcontroller schematic with support circuitry*
 
 </div>
@@ -67,6 +67,7 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
 <div align="center">
 
 ![Power Schematic](images/power_schematic.png)
+
 *Complete power management circuit schematic*
 
 </div>
