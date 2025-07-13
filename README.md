@@ -29,6 +29,7 @@ This project implements an advanced infrared communication robot capable of:
 <div align="center">
 
 ![PCB Layout](images/pcb_3d_render.png)
+
 *3D rendering of the complete PCB showing component placement and assembly*
 
 </div>
@@ -93,6 +94,7 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
 <div align="center">
 
 ![IR Array Schematic](images/ir_array_schematic.png)
+
 *Schematic showing IR transmitter and receiver circuits with signal conditioning*
 
 </div>
@@ -118,6 +120,7 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
 <div align="center">
 
 ![Amplifier Schematic](images/amplifier_schematic.png)
+
 *Op-amp and comparator circuit schematics for signal conditioning*
 
 </div>
@@ -139,6 +142,7 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
 <div align="center">
 
 ![Motor Driver Schematic](images/motor_driver_schematic.png)
+
 *TB6612FNG motor driver circuit schematics with control interfaces*
 
 </div>
