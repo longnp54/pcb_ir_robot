@@ -1,10 +1,13 @@
 # IR Communication Robot (STM32-Based)
 
+<div align="center">
+
 ![Robot PCB Overview](images/pcb_3d_render.png)
+
+</div>
 
 A sophisticated infrared communication robot designed with STM32F446VET6 microcontroller, featuring comprehensive IR sensing, omnidirectional communication, and motor control capabilities.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![STM32](https://img.shields.io/badge/STM32-F446VET6-blue.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32f446.html)
 [![PCB](https://img.shields.io/badge/PCB-Altium%20Designer-green.svg)](https://www.altium.com/)
 
@@ -19,8 +22,12 @@ This project implements an advanced infrared communication robot capable of:
 
 ## 🔧 Hardware Specifications
 
+<div align="center">
+
 ![PCB Layout](images/pcb_3d_render.png)
 *3D rendering of the complete PCB showing component placement and assembly*
+
+</div>
 
 ### Main Components
 - **Microcontroller**: STM32F446VET6 (LQFP100, 512KB Flash, ARM Cortex-M4)
@@ -34,8 +41,13 @@ This project implements an advanced infrared communication robot capable of:
 ## 🏗️ Circuit Architecture & Schematics
 
 ### Central Processing Unit
+
+<div align="center">
+
 ![STM32 Schematic](images/stm32_schematic.png)
 *STM32F446VET6 microcontroller schematic with support circuitry*
+
+</div>
 
 The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned at the center of the PCB:
 - **Location**: Center of PCB for optimal signal routing
@@ -47,8 +59,13 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
   - Programming header for SWD interface
 
 ### Power Management Section
+
+<div align="center">
+
 ![Power Schematic](images/power_schematic.png)
 *Complete power management circuit schematic*
+
+</div>
 
 **Primary Power Stage**:
 - **U4 (LM2596S-3.3)**: Main switching regulator
@@ -67,8 +84,13 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
 - Ferrite bead (FB1) for high-frequency noise suppression
 
 ### IR Communication Array
+
+<div align="center">
+
 ![IR Array Schematic](images/ir_array_schematic.png)
 *Schematic showing IR transmitter and receiver circuits with signal conditioning*
+
+</div>
 
 **IR Transmitters (DS1-DS12)**:
 - **Type**: TSAL6400 High-Power IR LEDs
@@ -87,8 +109,13 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
 - **Sensitivity Control**: Adjustable via potentiometer (VR1)
 
 ### Signal Processing Section
+
+<div align="center">
+
 ![Amplifier Schematic](images/amplifier_schematic.png)
 *Op-amp and comparator circuit schematics for signal conditioning*
+
+</div>
 
 **Operational Amplifiers (U7, U9, U10 - LM324M)**:
 - **Configuration**: Each photodiode signal is amplified
@@ -103,8 +130,13 @@ The heart of the robot is the **STM32F446VET6** microcontroller (U1), positioned
 - **Response Time**: Fast switching for real-time communication
 
 ### Motor Control Section
+
+<div align="center">
+
 ![Motor Driver Schematic](images/motor_driver_schematic.png)
 *TB6612FNG motor driver circuit schematics with control interfaces*
+
+</div>
 
 **Motor Drivers (U2, U3 - TB6612FNG)**:
 - **Capacity**: Each driver controls 2 DC motors
@@ -203,7 +235,7 @@ ir_robot/
 ### Programming
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ir-communication-robot.git
+git clone https://github.com/longnp54/pcb_ir_robot.git
 
 # Open in STM32CubeIDE
 # Configure project for STM32F446VET6
@@ -249,11 +281,7 @@ Contributions are welcome! Please:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - STMicroelectronics for STM32 ecosystem
 - Vishay for high-quality IR components
@@ -262,10 +290,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Project Maintainer**: [Your Name]
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+**Project Maintainer**: longnp54
+- Email: longnp54@gmail.com
+- GitHub: [@longnp54](https://github.com/longnp54)
+- Repository: [pcb_ir_robot](https://github.com/longnp54/pcb_ir_robot)
 
 ---
 
