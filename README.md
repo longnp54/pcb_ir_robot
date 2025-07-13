@@ -8,8 +8,12 @@
 
 A sophisticated infrared communication robot designed with STM32F446VET6 microcontroller, featuring comprehensive IR sensing, omnidirectional communication, and motor control capabilities.
 
+<div align="center">
+
 [![STM32](https://img.shields.io/badge/STM32-F446VET6-blue.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32f446.html)
 [![PCB](https://img.shields.io/badge/PCB-Altium%20Designer-green.svg)](https://www.altium.com/)
+
+</div>
 
 ## 🤖 Project Overview
 
@@ -281,7 +285,7 @@ Contributions are welcome! Please:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-##  Acknowledgments
+## 🙏 Acknowledgments
 
 - STMicroelectronics for STM32 ecosystem
 - Vishay for high-quality IR components
