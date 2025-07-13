@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=12V Pin=U3-14
+Removed Pin From Net: NetName=GND Pin=U3-15
+Removed Pin From Net: NetName=GND Pin=U3-16
+Removed Pin From Net: NetName=GND Pin=U3-17
+Removed Pin From Net: NetName=12V Pin=U3-24
+Added Member To Class: ClassName=main Member=Component J3 B6B-PH-K-E(LF)(SN)

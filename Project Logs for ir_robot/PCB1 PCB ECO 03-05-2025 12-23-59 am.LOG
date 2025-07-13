@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=C14 NewDesignator=C16
+Added Member To Class: ClassName=main Member=Component C6 1uF
+Added Member To Class: ClassName=main Member=Component C16 T491C106M025AT

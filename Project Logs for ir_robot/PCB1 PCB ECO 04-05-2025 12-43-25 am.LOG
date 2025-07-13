@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=32 NewDesignator=D3
+Added Pin To Net: NetName=GND Pin=R27-1
+Added Pin To Net: NetName=NetD2_1 Pin=R27-2
+Added Member To Class: ClassName=main Member=Component J3 B6B-PH-K-E(LF)(SN)

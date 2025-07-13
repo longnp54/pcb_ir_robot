@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=12V Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C16-2
+Removed Pin From Net: NetName=BO2 Pin=J2-1
+Removed Pin From Net: NetName=3V3 Pin=J2-2
+Removed Pin From Net: NetName=EN3 Pin=J2-3
+Removed Pin From Net: NetName=EN4 Pin=J2-4
+Removed Pin From Net: NetName=GND Pin=J2-5
+Removed Pin From Net: NetName=BO1 Pin=J2-6
+Removed Pin From Net: NetName=CO2 Pin=J3-1
+Removed Pin From Net: NetName=3V3 Pin=J3-2
+Removed Pin From Net: NetName=EN5 Pin=J3-3
+Removed Pin From Net: NetName=EN6 Pin=J3-4
+Removed Pin From Net: NetName=GND Pin=J3-5
+Removed Pin From Net: NetName=CO1 Pin=J3-6
+Removed Pin From Net: NetName=NetD2_1 Pin=R27-1
+Removed Pin From Net: NetName=GND Pin=R27-2
+Removed Member From Class: ClassName=main Member=C16
+Removed Member From Class: ClassName=main Member=J2
+Removed Member From Class: ClassName=main Member=J3
+Change Component Footprint: Designator=J1 Old Footprint=FP-B6B-XH-A_LF_SN-MFG New Footprint=FP-B6B-PH-K-E_LF_SN-MFG
+Change Component Comment : Designator=J1 Old Comment=B6B-XH-A(LF)(SN) New Comment=B6B-PH-K-E(LF)(SN)
+Change Managed Component Library Link : Designator=J1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=2E4634CB-89C2-4FA9-ADC8-598CEEA6D4A1 New ItemGUID=00A423E2-23BD-4F07-8894-50AD7A565072 Old RevisionGUID=4131B36C-4EB7-46E9-980F-D4F9D5ECA89D New RevisionGUID=3325F0C3-A40C-489C-A5BC-4D861BF3B348
+Change component parameters: Designator = "J1" ("J1"); Footprint = "FP-B6B-XH-A_LF_SN-MFG"; UniqueID = "\YYCBOZTE" ("\YYCBOZTE")
+Change component parameters (AddParameter): Name = "Height"; Value = "6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "13.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Poles"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "4.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=J?(FP-B6B-PH-K-E_LF_SN-MFG)
+Add component (AddParameter): Name = "Height"; Value = "6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "13.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Poles"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "4.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=J?(FP-B6B-PH-K-E_LF_SN-MFG)
+Add component (AddParameter): Name = "Height"; Value = "6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "13.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Poles"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "4.5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BO2 Pin=J?-1
+Added Pin To Net: NetName=CO2 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-2
+Added Pin To Net: NetName=3V3 Pin=J?-2
+Added Pin To Net: NetName=EN3 Pin=J?-3
+Added Pin To Net: NetName=EN5 Pin=J?-3
+Added Pin To Net: NetName=EN4 Pin=J?-4
+Added Pin To Net: NetName=EN6 Pin=J?-4
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=BO1 Pin=J?-6
+Added Pin To Net: NetName=CO1 Pin=J?-6
+Change Net Name : Old Net Name=AO1 New Net Name=NetJ1_6
+Added Member To Class: ClassName=main Member=Component J? B6B-PH-K-E(LF)(SN)
+Added Member To Class: ClassName=main Member=Component J? B6B-PH-K-E(LF)(SN)
+Added Member To Class: ClassName=main Member=Component U1 STM32F446VET6
